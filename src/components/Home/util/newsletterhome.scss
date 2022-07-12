@@ -1,0 +1,12 @@
+.newsletter-form-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.newsletter-form-home input[type='email']::placeholder {
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
