@@ -31,7 +31,7 @@ export default function AboutContact() {
 
   const [status, setStatus] = useState('');
 
-  const sendEmail = (e: { preventDefault: () => void }) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -99,7 +99,7 @@ export default function AboutContact() {
                         _hover={{ border: '2px solid #1C6FEB' }}
                         leftIcon={<MdEmail color='#1970F1' size='20px' />}
                       >
-                        gzonecreative@gmail.com
+                        info@gzonecreative.com
                       </Button>
                       <Button
                         display={'flex'}

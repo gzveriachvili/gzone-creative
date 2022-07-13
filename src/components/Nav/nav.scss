@@ -32,12 +32,11 @@ nav {
 @media screen and (max-width: 35em) {
   .nav-logo {
     width: 100%;
-    max-width: 120px;
-    min-width: 120px;
+    max-width: 110px;
+    min-width: 110px;
     height: auto;
   }
   .nav-social {
-    font-size: 16px !important;
-    margin-right: 30px !important;
+    display: none !important;
   }
 }

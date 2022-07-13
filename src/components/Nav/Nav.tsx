@@ -82,10 +82,6 @@ export default function withAction() {
                 <NavLink>Services</NavLink>
               </ReactNavLink>
 
-              {/* <ReactNavLink to={'/portfolio'}>
-                <NavLink>Portfolio</NavLink>
-              </ReactNavLink> */}
-
               <ReactNavLink to={'/contact'}>
                 <NavLink>Contact</NavLink>
               </ReactNavLink>
@@ -147,10 +143,8 @@ export default function withAction() {
                 <NavLink>About</NavLink>
               </ReactNavLink>
 
-              <Link href='#gzoneServices'>Services</Link>
-
-              <ReactNavLink to={'/portfolio'}>
-                <NavLink>Portfolio</NavLink>
+              <ReactNavLink to={'/services'}>
+                <NavLink>Services</NavLink>
               </ReactNavLink>
 
               <ReactNavLink to={'/contact'}>
